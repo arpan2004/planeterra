@@ -16,10 +16,10 @@ const Hero = () => {
           or inspections, we have you covered.
         </p>
         <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
-          <button className="px-6 py-2 bg-white text-gray-900 font-bold rounded-lg hover:bg-gray-300">
+          <button className="px-6 py-2 bg-red-500 text-white font-bold hover:bg-slate-600">
             Explore Our Services
           </button>
-          <button className="px-6 py-2 bg-white text-gray-900 font-bold rounded-lg hover:bg-gray-300">
+          <button className="px-6 py-2 bg-white text-red-500 font-bold hover:bg-slate-600 hover:text-white">
             Contact Us
           </button>
         </div>
