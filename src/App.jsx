@@ -1,17 +1,12 @@
-import About from "./components/About";
-import Form from "./components/Form";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
-import Services from "./components/Services";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
 
 export default function App() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <About />
-      <Services />
-      <Form />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
   );
 }
