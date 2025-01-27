@@ -1,8 +1,8 @@
 
 const Form = () => {
   return (
-    <div className="container px-4 py-6 mx-auto">
-      <div className="mx-auto">
+    <div className=" bg-amber-50">
+      <div className="px-4 py-6">
         <div className="max-w-6xl mx-auto px-8 py-6 bg-neutral-200 rounded-lg shadow-lg">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Contact Us</h2>
           <form>
@@ -18,7 +18,7 @@ const Form = () => {
               <label className="block text-gray-800 mb-1" htmlFor="message">Your Message</label>
               <textarea className="w-full px-4 py-2 bg-gray-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 transition duration-300" rows={4} placeholder="Enter your message" name="message" id="message" defaultValue={""} />
             </div>
-            <button className="w-full bg-red-500 text-white py-2 px-4 rounded-lg hover:bg-slate-600 transition duration-300" type="submit">
+            <button className="w-full bg-blue-700 text-white py-2 px-4 rounded-lg hover:bg-slate-600 transition duration-300" type="submit">
               Send Message
             </button>
           </form>

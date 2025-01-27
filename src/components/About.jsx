@@ -2,7 +2,7 @@ import technician from "../assets/drone-technician.png";
 
 const About = () => {
   return (
-    <section className="py-20 bg-gray-100 items-start px-4 sm:px-8">
+    <section className="py-20 bg-amber-50 items-start px-4 sm:px-8">
       <div className="flex flex-col sm:flex-row space-y-8 sm:space-y-0 sm:space-x-8 items-start">
         <div className="w-full sm:w-1/2">
           <img

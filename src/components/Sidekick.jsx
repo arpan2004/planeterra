@@ -14,7 +14,7 @@ const Sidekick = ({text, para}) => {
         <p className="text-base md:text-lg text-white mb-6 text-center mx-4 py-4 max-w-4xl">
           {para}
         </p>
-        <button className="px-6 py-2 bg-white text-red-500 font-bold hover:bg-slate-600 hover:text-white">
+        <button className="px-6 py-2 bg-white text-blue-700 font-bold hover:bg-slate-600 hover:text-white">
             Contact Us
         </button>
       </div>

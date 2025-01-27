@@ -23,7 +23,7 @@ const Services = () => {
                 </p>
               </div>
               <div className="flex flex-1 items-start justify-end gap-[16px] md:gap-[24px] pr-[16px] md:pr-[32px] transform rotate-[0.5deg]">
-                <button className="flex items-center justify-center gap-6 fill-red-500 text-white cursor-pointer transition-all duration-300 font-bold pt-4 md:pt-6 whitespace-nowrap border border-red-500 pl-4 md:pl-6 pr-4 md:pr-6 pb-4 md:pb-6 bg-red-500 hover:bg-slate-600 hover:border-slate-600">
+                <button className="flex items-center justify-center gap-6 fill-blue-700 text-white cursor-pointer transition-all duration-300 font-bold pt-4 md:pt-6 whitespace-nowrap border border-blue-700 pl-4 md:pl-6 pr-4 md:pr-6 pb-4 md:pb-6 bg-blue-700 hover:bg-slate-600 hover:border-slate-600">
                   {" "}
                   {/* Adjusted padding for smaller screens */}
                   Get A Quote

@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section
       className="relative bg-cover bg-center bg-no-repeat h-screen"
-      style={{ backgroundImage: `url(${droneImage})` }}
+      style={{ backgroundImage: `url(${droneImage})`, }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center p-4">
         <h1 className="text-3xl md:text-5xl font-bold text-white mb-4 text-center">
@@ -16,10 +16,10 @@ const Hero = () => {
           or inspections, we have you covered.
         </p>
         <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
-          <button className="px-6 py-2 bg-red-500 text-white font-bold hover:bg-slate-600">
+          <button className="px-6 py-2 bg-blue-700 text-white font-bold hover:bg-slate-600">
             Explore Our Services
           </button>
-          <button className="px-6 py-2 bg-white text-red-500 font-bold hover:bg-slate-600 hover:text-white">
+          <button className="px-6 py-2 bg-white text-blue-700 font-bold hover:bg-slate-600 hover:text-white">
             Contact Us
           </button>
         </div>
