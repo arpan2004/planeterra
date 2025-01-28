@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import logo from "../assets/planeterra_logo.png";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -27,10 +28,11 @@ const Navbar = () => {
     >
       <nav className="container mx-auto flex items-center justify-between py-4 px-6">
         <div
-          className={`text-2xl font-bold ${
+          className={`flex items-center text-2xl font-bold ${
             scrolled ? "text-gray-800" : "text-white"
           }`}
         >
+          <img src={logo} alt="Planeterra Logo" className="h-8 w-8 mr-2" />
           Planeterra
         </div>
         <div className="flex items-center">
