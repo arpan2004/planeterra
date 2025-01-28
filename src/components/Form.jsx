@@ -1,9 +1,9 @@
 
 const Form = () => {
   return (
-    <div className=" bg-amber-50">
+    <div className=" bg-neutral-200">
       <div className="px-4 py-6">
-        <div className="max-w-6xl mx-auto px-8 py-6 bg-neutral-200 rounded-lg shadow-lg">
+        <div className="max-w-6xl mx-auto px-8 py-6 bg-gray-300 rounded-lg shadow-lg">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Contact Us</h2>
           <form>
             <div className="mb-4">

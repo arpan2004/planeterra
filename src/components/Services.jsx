@@ -1,6 +1,6 @@
 const Services = () => {
   return (
-    <div className="flex-none w-full h-auto flex items-center justify-center bg-neutral-200">
+    <div className="flex-none w-full h-auto flex items-center justify-center bg-gray-300">
       <div className="w-full flex p-5 md:p-20 relative items-center flex-col">
         {" "}
         {/* Adjusted padding for smaller screens */}
