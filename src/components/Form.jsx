@@ -8,15 +8,15 @@ const Form = () => {
           <form>
             <div className="mb-4">
               <label className="block text-gray-800 mb-1" htmlFor="name">Your Name</label>
-              <input className="w-full px-4 py-2 bg-gray-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 transition duration-300" placeholder="Enter your name" type="text" />
+              <input className="w-full px-4 py-2 bg-gray-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-700 transition duration-300" placeholder="Enter your name" type="text" />
             </div>
             <div className="mb-4">
               <label className="block text-gray-800 mb-1" htmlFor="email">Your Email</label>
-              <input className="w-full px-4 py-2 bg-gray-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 transition duration-300" placeholder="Enter your email" name="email" id="email" type="email" />
+              <input className="w-full px-4 py-2 bg-gray-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-700 transition duration-300" placeholder="Enter your email" name="email" id="email" type="email" />
             </div>
             <div className="mb-4">
               <label className="block text-gray-800 mb-1" htmlFor="message">Your Message</label>
-              <textarea className="w-full px-4 py-2 bg-gray-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 transition duration-300" rows={4} placeholder="Enter your message" name="message" id="message" defaultValue={""} />
+              <textarea className="w-full px-4 py-2 bg-gray-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-700 transition duration-300" rows={4} placeholder="Enter your message" name="message" id="message" defaultValue={""} />
             </div>
             <button className="w-full bg-blue-700 text-white py-2 px-4 rounded-lg hover:bg-slate-600 transition duration-300" type="submit">
               Send Message
