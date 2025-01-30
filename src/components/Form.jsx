@@ -26,10 +26,6 @@ const Form = () => {
         reply_to: formData.email,
       };
 
-      console.log(import.meta.VITE_SERVICE_ID);
-      console.log(import.meta.VITE_TEMPLATE_ID);
-      console.log(import.meta.VITE_PUBLIC_KEY);
-
       await emailjs.send(
         import.meta.env.VITE_SERVICE_ID,
         import.meta.env.VITE_TEMPLATE_ID,
