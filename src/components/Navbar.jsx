@@ -15,6 +15,7 @@ const Navbar = () => {
     { title: "Aerial Photography", path: "/services/aerial-photography" },
     { title: "Inspections", path: "/services/inspections" },
     { title: "Mapping & Surveying", path: "/services/mapping-surveying" },
+    { title: "Computer Aided Design", path: "/services/cad" },
   ];
 
   useEffect(() => {

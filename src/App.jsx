@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import AboutPage from "./pages/AboutPage";
 import ScrollToTop from "./components/ScrollToTop";
 import ServicesPage from "./pages/ServicesPage";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/services" element={<ServicesPage />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
