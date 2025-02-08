@@ -16,6 +16,7 @@ const WhyChooseUs = () => {
       <div className="md:w-1/2 w-full">
         <img
           src={technician}
+          loading="lazy"
           alt="Construction workers"
           className="w-full h-auto object-cover rounded-lg shadow-lg"
         />

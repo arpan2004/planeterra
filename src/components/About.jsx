@@ -7,6 +7,7 @@ const About = () => {
         <div className="w-full sm:w-1/2">
           <img
             src={technician}
+            loading="lazy"
             alt="drone technician"
             className="w-full h-auto rounded-lg shadow-lg"
           />
